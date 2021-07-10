@@ -1,0 +1,14 @@
+{
+  "name": "jsday-mfe",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start:shell": "yarn workspace @rstack/shell start:live",
+    "start:app01": "yarn workspace @rstack/app01 start:live",
+    "start:app02": "yarn workspace @rstack/app02 start:live"
+  },
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ]
+}
